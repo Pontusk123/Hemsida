@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ccc;
+  background: #FFFFFF;
 }
  
 .nav ul {
@@ -38,20 +38,21 @@ body {
  
 @media screen and (min-width: 600px) {
   .nav li {
-    width: 120px;
+    width: 130px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
+	
   }
  
   /* Option 1 - Display Inline */
   .nav li {
     display: inline-block;
-    margin-right: -4px;
+    margin-right: 4px;
   }
  
-  /* Options 2 - Float
+  /* Options 2 - float
   .nav li {
     float: left;
   }
@@ -66,5 +67,13 @@ body {
   }
   */
 }
+#headerblack{
+  background-color: #FFFFFF ;
+  img {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+}
+  
 {
     
